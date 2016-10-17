@@ -1,5 +1,5 @@
 import 'whatwg-fetch';
-import './katy.json';
+import './data.json';
 
 class model {
   constructor(data) {

@@ -45,6 +45,7 @@ $white: hsl(0, 0%, 21%);
     @extend .title.is-4;
 
     color: #fff;
+    background: red;
   }
 
   &__name {
@@ -52,5 +53,6 @@ $white: hsl(0, 0%, 21%);
     @extend .subtitle;
 
     color: #fff;
+    background: yellow;
   }
 }
