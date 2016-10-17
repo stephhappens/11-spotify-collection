@@ -1,5 +1,5 @@
-import './data.json';
-import data from '/.model';
+// import './data.json';
+// import data from '/.model';
 export default class view {
 
   constructor(model) {
@@ -16,8 +16,8 @@ export default class view {
     </div>`;
   }
   render() {
-    this.track.querySelector('.track__name').innerText = `${this.model.name}`;
-    this.track.querySelector('.track__artist').innerText = `${this.model.artist}`;
-    this.track.querySelector('.track__img').innerText = `${this.model.image}`;
+    this.track.querySelector('.track__name').innerText = this.model.name;
+    this.track.querySelector('.track__artist').innerText = this.model.artist;
+    this.track.querySelector('.track__img').src = this.model.image;
   }
 }
