@@ -5,22 +5,6 @@ export default class model {
     this.artist = data.artists[0].name;
     this.name = data.name;
     this.image = data.album.images[0].url;
-    this.href = data.href;
+    this.href = data.external_urls.spotify;
   }
 }
-
-//
-//     const el = document.createElement('div');
-//     el.classList.add('track');
-//     el.innerHTML = `
-//   <p class= "character__name"> </p>
-//   <p class= "character__profession"> </p>
-//   <p class= "character__age"> </p>`;
-//   }
-// }
-//
-// render() {
-//   el.querySelector('.character__name').innerText = `${c.first} ${c.last}`;
-//   el.querySelector('.character__profession').innerText = c.profession;
-//   el.querySelector('.character__age').innerText = c.age;
-// }
